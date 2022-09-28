@@ -92,7 +92,7 @@ resources:
       Type: AWS::DynamoDB::Table
       Properties:
         TableName: ${self:custom.postsTableName}
-        AttributeDefination:
+        AttributeDefinitions:
           - AttributeName: postId
             AttributeType: S
         KeySchema:
